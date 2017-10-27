@@ -17,4 +17,4 @@ Scoriet must import in first your application database. It imports it in Hyper F
 
 Scoriet has a database import version, so you can make for example a laravel migrations/database updates!
 
-Scoriet delivers a PHP sample template, be kind, this was not my best work, I wanted to deliver a class/master/datapresentation PHP framework, with savvy a PHP framework, but time was against me... sorry, so I deliver a CRUD but with bootstrap css framework. Not a single class in it
+Scoriet delivers a PHP sample template, be kind, this was not my best work, I wanted to deliver a model-view-controller template, with savvy a PHP framework (like smarty, but as PHP template language!), but time was against me... sorry, so I deliver a CRUD template but with bootstrap css framework. My dream is to devliver a Yii and Laravel Template with Bootstrap, mirgations aso.
