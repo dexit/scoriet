@@ -1,6 +1,8 @@
 # scoriet
 Scoriet - a source code generator - source - templates &amp; installer
 
+My homepage is http://www.scoriet.com with documentation, forum, download binary installer.
+
 First upload after changing license to open-source
 
 Scoriet is written in WinDev, this version is in WinDev 22, english version
