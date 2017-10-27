@@ -1,0 +1,2 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+DBConnection	Description	CLEU*		Description item is now key
