@@ -1,0 +1,4 @@
+//MO010-011.TXT ANA00010 TO ANA00011
+Version		TAR	183	new record size: 183
+Version	AnalyseWidth	RUB+		AnalyseWidth is a new item
+Version	AnalyseHeight	RUB+		AnalyseHeight is a new item
