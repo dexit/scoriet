@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define ApplicationName 'Scoriet Generator'
-#define ApplicationVersion GetFileVersion('D:\WdTemp22\Scoriet\Exe\Scoriet.exe')
+#define ApplicationVersion GetFileVersion('D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet.exe')
 
 [Setup]
 SignTool=signtool
@@ -18,7 +18,7 @@ AppCopyright=(c) 2017 Systemhaus Predl IT-GmbH
 DefaultDirName={pf}\Scoriet
 DefaultGroupName=Scoriet
 AppendDefaultDirName=no
-SetupIconFile=D:\WdTemp22\Scoriet\code.ico
+SetupIconFile=D:\WdTemp22\ScorietGit\scoriet\code.ico
 Compression=lzma
 SolidCompression=yes
 ShowLanguageDialog=true
@@ -26,7 +26,7 @@ VersionInfoCompany=Systemhaus Predl IT GesmbH
 VersionInfoDescription={#ApplicationName}
 VersionInfoTextVersion={#ApplicationName}
 VersionInfoVersion={#ApplicationVersion}
-OutputDir=D:\WdTemp22\Scoriet\InnoSetup\Output32
+OutputDir=D:\WdTemp22\ScorietGit\scoriet\InnoSetup\Output32
 OutputBaseFilename=Scoriet_Setup_32_{#ApplicationVersion}
 
 [Components]
@@ -35,8 +35,8 @@ Name: "data";         Description: "{cm:DemoData}";         Types: full custom; 
 Name: "templates";    Description: "{cm:Templates}";        Types: full custom;         Flags: checkablealone disablenouninstallwarning
 
 [Languages]
-Name: de; MessagesFile: "compiler:Languages\German.isl"; LicenseFile: "D:\WdTemp22\Scoriet\Exe\Scoriet_EULA_DE.txt"
-Name: en; MessagesFile: "compiler:Languages\English.isl"; LicenseFile: "D:\WdTemp22\Scoriet\Exe\Scoriet_EULA_EN.txt"
+Name: de; MessagesFile: "compiler:Languages\German.isl"; LicenseFile: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_EULA_DE.txt"
+Name: en; MessagesFile: "compiler:Languages\English.isl"; LicenseFile: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_EULA_EN.txt"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
@@ -47,13 +47,15 @@ Name: "{userdocs}\Scoriet"; Permissions: everyone-full
 Name: "{app}"; Permissions: everyone-full
 
 [Files]
-Source: "D:\WdTemp22\Scoriet\Exe\Scoriet.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\Scoriet\Exe\Scoriet_EN.chm"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\Scoriet\Exe\Scoriet_DE.chm"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\Scoriet\Exe\libmySQL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\Scoriet\Exe\en.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: en
-Source: "D:\WdTemp22\Scoriet\Exe\de.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: de
-Source: "D:\WdTemp22\Scoriet\Scoriet.ana\Scoriet.wdd"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_EN.chm"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_DE.chm"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\libmySQL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\libmariadb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\sakila-db.zip"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\en.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: en
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\de.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: de
+Source: "D:\WdTemp22\ScorietGit\scoriet\Scoriet.ana\Scoriet.wdd"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\Eigene Dateien\Scoriet\Data\Language.dat"; DestDir: "{userdocs}\Scoriet\data"; Components: data; Flags: ignoreversion onlyifdoesntexist uninsneveruninstall
 Source: "D:\Eigene Dateien\Scoriet\Data\Language.ndx"; DestDir: "{userdocs}\Scoriet\data"; Components: data; Flags: ignoreversion onlyifdoesntexist uninsneveruninstall
 Source: "D:\Eigene Dateien\Scoriet\Data\Country.dat"; DestDir: "{userdocs}\Scoriet\data"; Components: data; Flags: ignoreversion onlyifdoesntexist uninsneveruninstall
