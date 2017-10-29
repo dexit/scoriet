@@ -26,6 +26,8 @@ VersionInfoCompany=Systemhaus Predl IT GesmbH
 VersionInfoDescription={#ApplicationName}
 VersionInfoTextVersion={#ApplicationName}
 VersionInfoVersion={#ApplicationVersion}
+ArchitecturesAllowed=x86 x64 ia64
+ArchitecturesInstallIn64BitMode=x64 ia64
 OutputDir=D:\WdTemp22\ScorietGit\scoriet\InnoSetup\Output32
 OutputBaseFilename=Scoriet_Setup_32_{#ApplicationVersion}
 
