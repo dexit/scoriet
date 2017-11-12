@@ -77,6 +77,7 @@ Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220cpl.dll"; DestDir: "{app}
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220gpu.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220grf.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220hf.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220maria.DLL"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220mat.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220mdl.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\WinDev 22\Programs\Framework\Win32x86\wd220msql.dll"; DestDir: "{app}"; Flags: ignoreversion

@@ -50,8 +50,8 @@ Name: "{app}"; Permissions: everyone-full
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\64-bit Windows executable\Scoriet.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_EN.chm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\Scoriet_DE.chm"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\libmySQL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\libmariadb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\64-bit Windows executable\libmySQL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\64-bit Windows executable\libmariadb.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\sakila-db.zip"; DestDir: "{app}"; Flags: ignoreversion
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\en.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: en
 Source: "D:\WdTemp22\ScorietGit\scoriet\Exe\de.txt"; DestDir: "{app}"; DestName: "language.txt"; Flags: ignoreversion; Languages: de
